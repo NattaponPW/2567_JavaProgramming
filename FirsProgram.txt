@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+public class FirstProgam 
+{
+	public static void mani(String[] args)
+	{	
+		System.out.println("studentTd: 2413110293");
+		System.out.println("studentName: Nattapon Phliwan");
+		System.out.println("Topic: gitHub");
+		System.out.println("Date: 11/20/2024");
+		JOptionPane.showMessageDialog(null,
+					"studentTd: 2413110293" +
+					"\nstudentName: Nattapon Phliwan" +
+					"\nTopic: gitHub" + 
+					"\nDate: 11/20/2024");
+	}
+}
