@@ -30,6 +30,7 @@ public class Lab101 {
 		System.out.println("Discount from " + discount +"%       "   + frm.format(totalDiscount) +" bath.");
 		float totalAmount = totalPrice - totalDiscount;
 		System.out.print("Amount to be paid       " + frm.format(totalAmount) + " bath.");
+		
 	}
 
 }
