@@ -1,4 +1,4 @@
 StudentId:2413110293
 StudentName:Nattapon Phliwan
-Topic:LabSheet#3: String Method
-Date:12/11/2024
+Topic: Method
+Date: 12/18/2024
