@@ -24,9 +24,17 @@ public class Lab404 {
 				boolean isITStudent = isITStudent(studentID);
 				boolean isITSuject = isITSuject(subjectCode);
 
-				displayData(isITStudent, isITSuject);
+				
+				displayData(isITStudent, isITSuject , studentID);
+				break;
 			}
+			else {
+				System.out.println("");
+			}
+
 		}
+		
+		
 	}
 
 	public static boolean isLength(String input, int leg) {
@@ -34,22 +42,37 @@ public class Lab404 {
 		return input.length() == leg;
 	}
 
-	public static boolean isITStudent(String ID) {
-		
-		if (ID.length() == 10 ) {
+	public static boolean isITStudent(String id) {
+
+		if (id.startsWith("21") && id.charAt(2) == '1' && id.substring(3, 6).equals("311")) {
 			return true;
-		} 
-		
-		else {
-			return false;
+
 		}
+
+		return false;
+
 	}
 
 	public static boolean isITSuject(String Code) {
+
+		if (Code.startsWith("21") && Code.charAt(4) == '1') {
+			return true;
+		}
+
 		return false;
 	}
-	
-	public static void displayData() {
+
+	public static void displayData(boolean isITStudent, boolean isITSuject , String studentID ) {
 		
+		System.out.println();
+		
+		System.out.print("Student id: " + studentID + " ");
+		
+
+		if (!isITStudent) System.out.print("is not ");
+        System.out.println("1st year student in IT");
+
+        if (!isITSuject) System.out.print("not ");
+        System.out.println("enroll in courses for Year 1");
 	}
 }
