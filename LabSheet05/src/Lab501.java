@@ -27,7 +27,6 @@ public class Lab501 {
 			JOptionPane.showMessageDialog(null, "Invalid Item" , "Error" , JOptionPane.ERROR_MESSAGE);
 			System.out.print("Invalid Item");
 		}
-		
 	}
 
 }

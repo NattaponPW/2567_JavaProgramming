@@ -8,7 +8,6 @@ public class Lab501_Methot {
 	static double itemPrice = 0.0;
 	static boolean validitem = false;
 	
-	
 	public static void main(String[] args) {
 		
 		

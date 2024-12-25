@@ -16,7 +16,6 @@ public class Lab501_1 {
 				deptWasFound = true;
 			}
 		}
-		
 		if (deptWasFound) {
 			JOptionPane.showMessageDialog(null, dept + " was found in the list");
 		} else {

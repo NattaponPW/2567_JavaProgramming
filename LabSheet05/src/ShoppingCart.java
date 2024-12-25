@@ -8,7 +8,6 @@ public class ShoppingCart {
 		displayCardAndTotal("Milk", 20.0, "Bread" , 15.0);
 		displayCardAndTotal();
 	}
-	
 	public static void displayCardAndTotal(Object... items ) {
 		if (items.length == 0) {
 			System.out.println("No item in the cart.");
