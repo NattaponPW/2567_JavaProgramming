@@ -1,4 +1,4 @@
-StudentId:2413110293
-StudentName:Nattapon Phliwan
-Topic:Array and Array Method
-Date: 12/25/2024
+StudentId: 2413110293
+StudentName: Nattapon Phliwan
+Topic: Class and Object
+Date: 1/15/2025
