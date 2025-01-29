@@ -1,4 +1,5 @@
 StudentId: 2413110293
 StudentName: Nattapon Phliwan
-Topic: Encapsulation Concept
-Date: 1/22/2025
+Topic: - Array Object
+       - Composition Concept
+Date: 1/29/2025
