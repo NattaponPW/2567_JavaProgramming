@@ -1,5 +1,6 @@
 StudentId: 2413110293
 StudentName: Nattapon Phliwan
-Topic: - Array Object
-       - Composition Concept
-Date: 1/29/2025
+Topic: Lab Sheet #9:
+	- Inheritance  Concept
+	- Composition Concept
+Date: 2/05/2025
