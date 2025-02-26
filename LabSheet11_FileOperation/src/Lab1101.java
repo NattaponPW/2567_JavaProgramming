@@ -13,6 +13,7 @@ public class Lab1101 {
 		printHeader(section);
 
 		displayStudentList(section);
+		
 
 	}// end of main
 
