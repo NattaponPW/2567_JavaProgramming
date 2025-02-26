@@ -1,25 +1,27 @@
-
 public class Barista {
-	private String name;
-	private char gender;
-	
-	Barista(String name, char gender) {
-		this.name = name;
-		this.gender = gender;
-	}
-	
-	Barista() {
-		this(null, ' ');
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public String getGenderName() {
-		if(Character.toUpperCase(gender) == 'M') return "Male";
-		if(Character.toUpperCase(gender) == 'F') return "Female";
-				return "spacebar";
-			
-	}
+    private String name;
+    private char gender;
+
+    Barista() {
+        this(null, ' ');
+    }
+
+    Barista(String name, char gender) {
+        this.name = name;
+        this.gender = gender;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getGenderName() {
+        if(gender== 'M') return "Male";
+        if(gender== 'F') return "Female";
+        return "spacebar";
+    }
+
+    public String toString() {
+        return "Barista: " + getName() + " (" + getGenderName() + ")";
+    }
 }
